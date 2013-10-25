@@ -12,7 +12,7 @@ echo "<pre>Files:";
 print_r($_FILES);
 echo "</pre>";
 
-$dir = $_SERVER['DOCUMENT_ROOT']."/proyecto4/uploads";
+$dir = $_SERVER['DOCUMENT_ROOT']."/uploads";
 move_uploaded_file($_FILES['photo']['tmp_name'], 
 				   $dir."/".$_FILES['photo']['name']);
 
@@ -34,11 +34,11 @@ $out[]=$_FILES['photo']['name'];
 $data = implode(',', $out);	
 
 //Escribir en el fichero usuarios.txt
-$filename= $_SERVER['DOCUMENT_ROOT']."/proyecto4/usuarios.txt";
+$filename= $_SERVER['DOCUMENT_ROOT']."/usuarios.txt";
 file_put_contents($filename, $data."\n", FILE_APPEND);
 
 //Saltar de pagina
-header("Location: /proyecto4/usuarios.php");
+header("Location: /usuarios.php");
 
 
 

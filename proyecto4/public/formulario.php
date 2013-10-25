@@ -1,4 +1,4 @@
-<form action="action.php" method="POST"
+<form action="usuarios.php?action=insert" method="POST"
  enctype="multipart/form-data">
 <ul>
 	<li>
