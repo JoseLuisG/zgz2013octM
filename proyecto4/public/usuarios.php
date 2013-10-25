@@ -5,6 +5,8 @@ if(isset($_GET['action']))
 else
 	$action ='select';
 
+require_once ("../model/filesModel.php");
+require_once ("../model/users/usersModel.php");
 
 switch ($action)
 {
@@ -36,13 +38,6 @@ switch ($action)
 	break;
 	
 }
-?>
-
-
-
-
-
-
 
 
 

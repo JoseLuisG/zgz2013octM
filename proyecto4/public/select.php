@@ -13,7 +13,7 @@
 	<tr>
 		<?php foreach($user as $key => $value):?>
 			<td><?=$value;?></td>
-		<?php enforeach; ?>
+		<?php endforeach; ?>
 		<td>
 			<a href="#">update</a>
 			&nbsp;&nbsp;
@@ -23,20 +23,5 @@
 <?php endforeach;?>
 </table>
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
