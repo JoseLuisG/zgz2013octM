@@ -1,4 +1,4 @@
-<a href="/usuarios.php?action=insert">Insert Usuario</a>
+<a href="?action=insert">Insert Usuario</a>
 <table border=1>
 <tr>
 <th>Id</th> <th>Nombre</th>
@@ -9,15 +9,15 @@
 <th>Idiomas</th> <th>Submit</th>
 <th>Photo</th> <th>Options</th>
 </tr>
-<?php foreach($users as $key => $user): ?>
+<?php foreach($users as $line => $user): ?>
 	<tr>
 		<?php foreach($user as $key => $value):?>
-			<td><?=$value;?></td>
+			<td><?=(is_array($value))?implode('|',$value):$value;?></td>
 		<?php endforeach; ?>
 		<td>
-			<a href="#">update</a>
+			<a href="?action=update&id=<?=$line;?>">update</a>
 			&nbsp;&nbsp;
-		  	<a href="#">delete</a>
+		  	<a href="?action=delete&id=<?=$line;?>">delete</a>
 		</td>
 	</tr>
 <?php endforeach;?>
