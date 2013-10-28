@@ -8,6 +8,8 @@
  */
 function writeUserToFile($filename, $array_data)
 {
+	$configFile="../configs/config.ini";
+	$config=readConfig($configFile);	
 	//Recorrer el array
 	foreach($array_data as $key => $value)
 	{
