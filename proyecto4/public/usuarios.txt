@@ -2,3 +2,9 @@
 ,Agustin,agustincl@gmail.com,123,asdasd,asdasd,asdasda,m,dog,bcn,eng|esp|dut,Enviar,img_model_hombre-tacones-zapatos-mujer-botas-altas-tacon-hombre.jpg
 1,solokaka,sakljasdklj,,kljgsdklj,1gklsjkl,gklsjkl,h,dog,zgz,esp,Enviar,
 1,dfgsdfgdf,,,,,,zgz,Enviar,img_model_hombre-tacones-zapatos-mujer-botas-altas-tacon-hombre.jpg
+1,,,,,,,zgz,Enviar,Tacones-para-hombre-stilettos-negros-248x300-1.jpg
+1,nvhbnbvn,,,,,,zgz,Enviar,Tacones-para-hombre-stilettos-negros-248x300-3.jpg
+1,sdfsdfsdf,,,,,,zgz,Enviar,Tacones-para-hombre-stilettos-negros-248x300-2.jpg
+1,sdfsdf,,,,,,zgz,Enviar,url.jpg
+1,asd,,,,,,zgz,Enviar,url-0.jpg
+1,,sdaf,,,,,zgz,Enviar,url-1.jpg

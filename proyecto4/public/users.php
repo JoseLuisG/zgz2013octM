@@ -5,6 +5,7 @@ if(isset($_GET['action']))
 else
 	$action ='select';
 
+require_once ("../model/generalModel.php");
 
 
 

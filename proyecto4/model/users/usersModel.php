@@ -9,7 +9,8 @@
 function writeUserToFile($filename, $array_data)
 {
 	$configFile="../configs/config.ini";
-	$config=readConfig($configFile);	
+	$config=readConfig($configFile, "production");
+	
 	//Recorrer el array
 	foreach($array_data as $key => $value)
 	{
@@ -26,7 +27,7 @@ function writeUserToFile($filename, $array_data)
 	$data = implode(',', $out);
 		
 	//Escribir en el fichero usuarios.txt
-	$filename= $_SERVER['DOCUMENT_ROOT']."/usuarios.txt";
+	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
 	file_put_contents($filename, $data."\n", FILE_APPEND);
 	
 	return;
@@ -44,13 +45,16 @@ function writeUserToFile($filename, $array_data)
  */
 function updateUserTofile($line, $array_user, $filename, $delete=null)
 {
+	$configFile="../configs/config.ini";
+	$config=readConfig($configFile, "production");
+	
 	$users=readUsersFromFile();
 	$array_user[]=$filename;	
 	
 	
 	if($delete)
 	{
-		$dir = $_SERVER['DOCUMENT_ROOT']."/uploads";
+		$dir = $_SERVER['DOCUMENT_ROOT'].$config['upload_dir'];
 		unlink($dir."/".$filename);
 		unset($users[$line]);
 	}
@@ -76,7 +80,7 @@ function updateUserTofile($line, $array_user, $filename, $delete=null)
 	$users=implode("\n", $outusers);
 	
 	//Escribir en el fichero usuarios.txt
-	$filename= $_SERVER['DOCUMENT_ROOT']."/usuarios.txt";
+	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
 	file_put_contents($filename, $users);
 }
 
@@ -87,10 +91,13 @@ function updateUserTofile($line, $array_user, $filename, $delete=null)
  */
 function readUsersFromFile()
 {
+	$configFile="../configs/config.ini";
+	$config=readConfig($configFile, "production");
+	
 	$users=array();
 	$user=array();
 	//Leer los datos del archivo de texto en un string
-	$filename= $_SERVER['DOCUMENT_ROOT']."/usuarios.txt";
+	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
 	$data=file_get_contents($filename);
 	//Separar el string por lineas en un array (filas)
 	$filas = explode("\n", $data);

@@ -9,12 +9,26 @@
  */
 function uploadPicture ($array_files)
 {
-	
-	
+
 	$dir = $_SERVER['DOCUMENT_ROOT']."/uploads";
-	move_uploaded_file($array_files['photo']['tmp_name'],
-	$dir."/".$array_files['photo']['name']);
-		
+	$directory=scandir($dir);
 	
-	return $array_files['photo']['name'];
+// 	mientras que el nombre exista en el array
+	$file=$array_files['photo']['name'];
+	$a=0;
+	while(in_array($file, $directory))
+	{
+		$a++;
+		$infofile=pathinfo($dir."/".$array_files['photo']['name']);
+		$file=$infofile['filename']."-".$a.".".$infofile['extension'];
+	}
+		
+	move_uploaded_file($array_files['photo']['tmp_name'],
+						$dir."/".$file);
+	return $file;
 }
+
+
+
+
+
