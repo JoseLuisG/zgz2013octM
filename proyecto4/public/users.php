@@ -7,7 +7,8 @@ else
 
 require_once ("../model/generalModel.php");
 
-
+$configFile="../configs/config.ini";
+$config=readConfig($configFile, "production");
 
 require_once ("../model/filesModel.php");
 require_once ("../model/users/usersModel.php");
@@ -18,7 +19,7 @@ switch ($action)
 		if($_POST)
 		{
 			$filename = uploadPicture($_FILES);			
-			writeUserToFile($filename, $_POST);			
+			writeUserToFile($filename, $_POST, $config);			
 			//Saltar de pagina
 			header("Location: /users.php");
 		}
@@ -32,13 +33,13 @@ switch ($action)
 		if($_POST)
 		{
 			$filename = uploadPicture($_FILES);
-			updateUserTofile($_GET['id'], $_POST, $filename);
+			updateUserTofile($_GET['id'], $_POST, $filename, $config);
 			//Saltar de pagina
 			header("Location: /users.php");
 		}
 		else
 		{
-			$user=readUserFromFile($_GET['id']);
+			$user=readUserFromFile($_GET['id'], $config);
 			include ("../views/users/insertForm.php");			
 		}
 		
@@ -48,8 +49,8 @@ switch ($action)
 		{
 			if($_POST['submit']=='Si')
 			{
-				$filename = getUserFilename($_POST['id']);
-				updateUserTofile($_GET['id'], $_POST, $filename, true);
+				$filename = getUserFilename($_POST['id'], $config);
+				updateUserTofile($_GET['id'], $_POST, $filename, true, $config);
 			}
 			header("Location: /users.php");
 		}
@@ -60,7 +61,7 @@ switch ($action)
 		}		
 	break;
 	case 'select':
-		$users=readUsersFromFile();
+		$users=readUsersFromFile($config);
 		include("../views/users/select.php"); 
 	break;
 	default:

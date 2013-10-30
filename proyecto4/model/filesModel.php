@@ -7,10 +7,10 @@
  * @param array $array_files
  * @return string filename
  */
-function uploadPicture ($array_files)
+function uploadPicture ($array_files, $config)
 {
 
-	$dir = $_SERVER['DOCUMENT_ROOT']."/uploads";
+	$dir = $_SERVER['DOCUMENT_ROOT'].$config['upload_dir'];
 	$directory=scandir($dir);
 	
 // 	mientras que el nombre exista en el array

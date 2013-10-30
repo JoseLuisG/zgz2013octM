@@ -6,11 +6,8 @@
  * @param array $array_data
  * @return null
  */
-function writeUserToFile($filename, $array_data)
+function writeUserToFile($filename, $array_data, $config)
 {
-	$configFile="../configs/config.ini";
-	$config=readConfig($configFile, "production");
-	
 	//Recorrer el array
 	foreach($array_data as $key => $value)
 	{
@@ -43,11 +40,8 @@ function writeUserToFile($filename, $array_data)
  * @param boolean $delete
  * @return null
  */
-function updateUserTofile($line, $array_user, $filename, $delete=null)
+function updateUserTofile($line, $array_user, $filename, $delete=null, $config)
 {
-	$configFile="../configs/config.ini";
-	$config=readConfig($configFile, "production");
-	
 	$users=readUsersFromFile();
 	$array_user[]=$filename;	
 	
@@ -89,10 +83,9 @@ function updateUserTofile($line, $array_user, $filename, $delete=null)
  * Read users from file
  * @return array users
  */
-function readUsersFromFile()
+function readUsersFromFile($config)
 {
-	$configFile="../configs/config.ini";
-	$config=readConfig($configFile, "production");
+	
 	
 	$users=array();
 	$user=array();
@@ -126,9 +119,9 @@ function readUsersFromFile()
  * @param int $line
  * @return array user
  */
-function readUserFromFile($line)
+function readUserFromFile($line, $config)
 {
-	$users=readUsersFromFile();
+	$users=readUsersFromFile($config);
 	return $users[$line];
 }
 
@@ -138,9 +131,9 @@ function readUserFromFile($line)
  * @param int $line
  * @return string filename
  */
-function getUserFilename($line)
+function getUserFilename($line, $config)
 {
-	$user=readUserFromFile($line);
+	$user=readUserFromFile($line, $config);
 	$filename=$user[sizeof($user)-1];
 	return $filename;
 }
