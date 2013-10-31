@@ -1,0 +1,27 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="465" measuredH="412" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="15" y="12" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <text>servicios_consulta%0Ahttp%3A//www.padel/servicios_consulta.com%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::DataGrid" x="91" y="97" w="323" h="237" measuredW="209" measuredH="157" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hasHeader>true</hasHeader>
+        <hLines>false</hLines>
+        <rowHeight>34</rowHeight>
+        <text>Servicio%20%20%20%2C%20descripcion%20%20%20%20%20%20%20%20%0Aservicio1%2C%0Aservicio2%2C%0Aservicio3%2C%0Aservicio4%2C%2C%2C%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
+        <vLines>false</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Button" x="348" y="347" w="-1" h="-1" measuredW="59" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22333%2C335%2C392%2C362%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2257%22/%3E</map>
+        <text>Volver</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

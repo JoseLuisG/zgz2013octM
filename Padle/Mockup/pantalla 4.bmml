@@ -1,0 +1,29 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="819" measuredH="430" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="369" y="30" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bookplace%20-%20Plaza%20reservada%0Ahttp%3A//www.bookplace.com/finishbook</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="427" y="122" w="329" h="185" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%A1ENHORABUENA%21%0A%20%0AD/D%AA%20XXXXX%20con%20dni%20XXXXXX-X%0AAcaba%20de%20reservar%20pista%20en%20XXX%20a%20las%20XX%3AXX%20para%20la%20fecha%20XX/XX/XX%0A%20%0AGuardese%20una%20copia%20de%20este%20resguardo%20para%20mostrar%20en%20las%20instalaciones%20para%20la%20reserva%20de%20plaza.%0A%20%0A%20%0AAtentamente%20BookPlace%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="407" y="342" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Imprimir</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="536" y="342" w="-1" h="-1" measuredW="92" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enviar%20SMS</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="676" y="340" w="-1" h="-1" measuredW="96" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enviar%20Email</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

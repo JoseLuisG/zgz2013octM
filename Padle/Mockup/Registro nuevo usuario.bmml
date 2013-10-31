@@ -1,0 +1,176 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1101" measuredH="992" mockupW="1024" mockupH="981">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="77" y="11" w="1024" h="968" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="102" y="102" w="-1" h="-1" measuredW="250" measuredH="35" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>32</size>
+        <text>Reserva%20de%20pista</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="77" y="82" w="1024" h="130" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="1008" y="165" w="65" h="23" measuredW="59" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Entrar</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="943" y="104" w="130" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="854" y="107" w="60" h="-1" measuredW="52" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usuario%20%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="943" y="136" w="130" h="-1" measuredW="79" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="854" y="137" w="90" h="-1" measuredW="76" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contrase%F1a%20%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="815" y="178" w="100" h="-1" measuredW="97" measuredH="18" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>545684</color>
+        <size>10</size>
+        <text>Recordar%20contrase%F1a</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="804" y="89" w="284" h="111" measuredW="284" measuredH="111" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="284" h="111" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="10">
+          <controlProperties>
+            <color>6989903</color>
+            <text>Acceso</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="816" y="167" w="100" h="-1" measuredW="65" measuredH="18" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>545684</color>
+        <size>10</size>
+        <text>Nuevo%20usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::HRule" x="205" y="323" w="768" h="-1" measuredW="100" measuredH="10" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::ComboBox" x="462" y="269" w="341" h="-1" measuredW="231" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>--%20Seleccione%20un%20centro%20deportivo%20--</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="352" y="247" w="-1" h="-1" measuredW="50" measuredH="68" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>1%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="352" y="355" w="-1" h="-1" measuredW="65" measuredH="68" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>2%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ComboBox" x="462" y="370" w="341" h="-1" measuredW="228" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>--%20Seleccione%20espacio%20a%20reservar%20--</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::HRule" x="205" y="432" w="768" h="-1" measuredW="100" measuredH="10" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="355" y="463" w="-1" h="-1" measuredW="63" measuredH="68" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>3%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="462" y="477" w="212" h="-1" measuredW="188" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>16</size>
+        <text>Selecci%F3n%20de%20fecha%20y%20hora</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="482" y="852" w="245" h="54" measuredW="123" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>24</size>
+        <text>Reservar</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Image" x="295" y="539" w="619" h="267" measuredW="644" measuredH="338" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <crop>0%2C130%2C1000%2C870</crop>
+        <src>http%3A//web2metaversos.files.wordpress.com/2009/05/google-calendar1.jpg%3Fw%3D644%26h%3D459</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Canvas" x="77" y="82" w="1024" h="910" measuredW="100" measuredH="70" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::TitleWindow" x="363" y="371" w="452" h="230" measuredW="450" measuredH="400" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>0</bottomheight>
+        <close>true</close>
+        <dragger>false</dragger>
+        <minimize>false</minimize>
+        <text>Registro%20de%20usuario</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Button" x="635" y="539" w="85" h="27" measuredW="77" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Confirmacion%20registro%20nuevo%20usuario%26bm%3BConfirmacion%20registro%20nuevo%20usuario.bmml%26bm%3BConfirmacion%20registro%20nuevo%20usuario.bmml%26bm%3BConfirmacion%20registro%20nuevo%20usuario.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22558%2C528%2C643%2C555%22%20href%3D%22Confirmacion%2520registro%2520nuevo%2520usuario.bmml%22%20alt%3D%22Confirmacion%20registro%20nuevo%20usuario%22%20id%3D%2231%22/%3E</map>
+        <text>Registrar</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextInput" x="531" y="422" w="189" h="-1" measuredW="79" measuredH="26" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="444" y="425" w="65" h="-1" measuredW="46" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextInput" x="531" y="463" w="189" h="-1" measuredW="79" measuredH="26" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="444" y="466" w="87" h="-1" measuredW="69" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contrase%F1a</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::TextInput" x="531" y="501" w="189" h="-1" measuredW="79" measuredH="26" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="444" y="504" w="65" h="-1" measuredW="32" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,36 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="458" measuredH="711" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="311" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <text>crear_reserva%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="19" y="400" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Servicio</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::ComboBox" x="89" y="399" w="-1" h="-1" measuredW="82" measuredH="62" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>servicio1%0Aservicio2%0Aservico3</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Calendar" x="23" y="476" w="420" h="147" measuredW="96" measuredH="96" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::MediaControls" x="326" y="431" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Button" x="283" y="635" w="-1" h="-1" measuredW="70" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22275%2C324%2C345%2C351%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2269%22/%3E</map>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Button" x="359" y="635" w="-1" h="-1" measuredW="59" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22351%2C324%2C410%2C351%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2270%22/%3E</map>
+        <text>Volver</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

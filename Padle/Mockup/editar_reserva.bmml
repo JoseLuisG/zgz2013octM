@@ -1,0 +1,28 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="461" measuredH="550" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="11" y="150" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <text>Editar%20reserva%0Ahttp%3A//www.padel/editar_reserva%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::DataGrid" x="34" y="235" w="402" h="237" measuredW="296" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hasHeader>true</hasHeader>
+        <hLines>true</hLines>
+        <rowHeight>34</rowHeight>
+        <selectedIndex>0</selectedIndex>
+        <text>Reservas%20%20%2C%20Hora%20inicio%2C%20Hora%20final%2C%20fecha%20%20%20%20%20%20%20%20%0AReserva1%0AReserva2%0AReserva3%0A%7B50C%2C%2050C%2C%2050C%2C%2050C%7D</text>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Button" x="344" y="485" w="-1" h="-1" measuredW="59" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22333%2C335%2C392%2C362%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2257%22/%3E</map>
+        <text>Volver</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,27 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="463" measuredH="553" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="13" y="153" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <text>Acerca%20de</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="37" y="239" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Acerca%20de</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::TextArea" x="31" y="267" w="417" h="205" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informaci%F3n%20sobre%20la%20empresa.%0AQuienes%20somos%2C%20email%20de%20contacto%2C%20etc.</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Button" x="379" y="485" w="-1" h="-1" measuredW="59" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22366%2C332%2C425%2C359%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2278%22/%3E</map>
+        <text>Volver</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

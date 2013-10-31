@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="484" measuredH="783" mockupW="450" mockupH="758">
+  <controls>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="34" y="25" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>10470904</color>
+        <text>Menu%20principal%0Ahttp%3A//www.padel/menu_principal</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Image" x="35" y="100" w="449" h="55" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Imagen%20cabecera</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::ButtonBar" x="34" y="150" w="449" h="27" measuredW="272" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>inicio%26bm%3Binicio.bmml%26bm%3Binicio.bmml%26bm%3Binicio.bmml%2CmockupsPrueba%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml%2CmockupsPrueba%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml%2CmockupsPrueba%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml%26bm%3BmockupsPrueba.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C125%2C92%2C152%22%20href%3D%22inicio.bmml%22%20alt%3D%22inicio%22%20id%3D%2238%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%2292%2C125%2C224%2C152%22%20href%3D%22mockupsPrueba.bmml%22%20alt%3D%22mockupsPrueba%22%20id%3D%2238%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22224%2C125%2C346%2C152%22%20href%3D%22mockupsPrueba.bmml%22%20alt%3D%22mockupsPrueba%22%20id%3D%2238%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22346%2C125%2C448%2C152%22%20href%3D%22mockupsPrueba.bmml%22%20alt%3D%22mockupsPrueba%22%20id%3D%2238%22/%3E%0A</map>
+        <text>Inicio%2C%20Servicios%2C%20Reserva%2C%20Ayuda</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Menu" x="376" y="170" w="105" h="-1" measuredW="150" measuredH="57" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>ayuda%26bm%3Bayuda.bmml%26bm%3Bayuda.bmml%26bm%3Bayuda.bmml%2C%2Cacerca_de%26bm%3Bacerca_de.bmml%26bm%3Bacerca_de.bmml%26bm%3Bacerca_de.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22342%2C150%2C447%2C171%22%20href%3D%22ayuda.bmml%22%20alt%3D%22ayuda%22%20id%3D%2243%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22342%2C176%2C447%2C197%22%20href%3D%22acerca_de.bmml%22%20alt%3D%22acerca_de%22%20id%3D%2243%22/%3E%0A</map>
+        <text>Ayuda%0A---%0AAcerca_de</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Menu" x="263" y="170" w="116" h="-1" measuredW="150" measuredH="94" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>mis_reservas%26bm%3Bmis_reservas.bmml%26bm%3Bmis_reservas.bmml%26bm%3Bmis_reservas.bmml%2Creserva%26bm%3Breserva.bmml%26bm%3Breserva.bmml%26bm%3Breserva.bmml%2Ceditar_reserva%26bm%3Beditar_reserva.bmml%26bm%3Beditar_reserva.bmml%26bm%3Beditar_reserva.bmml%2Canular_reserva%26bm%3Banular_reserva.bmml%26bm%3Banular_reserva.bmml%26bm%3Banular_reserva.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22229%2C150%2C345%2C171%22%20href%3D%22mis_reservas.bmml%22%20alt%3D%22mis_reservas%22%20id%3D%2244%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22229%2C171%2C345%2C192%22%20href%3D%22reserva.bmml%22%20alt%3D%22reserva%22%20id%3D%2244%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22229%2C192%2C345%2C213%22%20href%3D%22editar_reserva.bmml%22%20alt%3D%22editar_reserva%22%20id%3D%2244%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22229%2C213%2C345%2C234%22%20href%3D%22anular_reserva.bmml%22%20alt%3D%22anular_reserva%22%20id%3D%2244%22/%3E%0A</map>
+        <text>Mis%20reservas%0ACrear%20reserva%0AEditar%20reserva%0AAnular%20reserva</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Menu" x="122" y="173" w="141" h="-1" measuredW="150" measuredH="31" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>consulta_servicios%26bm%3Bconsulta_servicios.bmml%26bm%3Bconsulta_servicios.bmml%26bm%3Bconsulta_servicios.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2288%2C153%2C229%2C174%22%20href%3D%22consulta_servicios.bmml%22%20alt%3D%22consulta_servicios%22%20id%3D%2245%22/%3E%0A</map>
+        <text>Consultar</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Button" x="347" y="756" w="-1" h="-1" measuredW="59" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Volver</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Button" x="404" y="353" w="-1" h="-1" measuredW="50" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Salir</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="434" y="117" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>loging%26bm%3Bloging.bmml%26bm%3Bloging.bmml%26bm%3Bloging.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22400%2C92%2C440%2C113%22%20href%3D%22loging.bmml%22%20alt%3D%22loging%22%20id%3D%2259%22/%3E</map>
+        <text>Loging</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

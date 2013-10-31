@@ -1,0 +1,31 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="464" measuredH="412" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="29" controlTypeID="__group__" x="14" y="12" w="450" h="400" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>inicio%26bm%3Binicio.bmml%26bm%3Binicio.bmml%26bm%3Binicio.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C0%2C450%2C400%22%20href%3D%22inicio.bmml%22%20alt%3D%22inicio%22%20id%3D%2229%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>10470904</color>
+            <text>Inicio%0Ahttp%3A//www/padel/inicio</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Button" x="203" y="298" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>MenuPrincipal%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml%26bm%3BMenuPrincipal.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22189%2C286%2C262%2C313%22%20href%3D%22MenuPrincipal.bmml%22%20alt%3D%22MenuPrincipal%22%20id%3D%2234%22/%3E</map>
+        <menuIcon>true</menuIcon>
+        <text>Inicio</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="95" y="104" w="301" h="173" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Imagen%20fondo</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,138 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1141" measuredH="1139" mockupW="1064" mockupH="1128">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="77" y="11" w="1024" h="968" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="102" y="102" w="-1" h="-1" measuredW="250" measuredH="35" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>32</size>
+        <text>Reserva%20de%20pista</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="77" y="82" w="1024" h="74" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="1008" y="134" w="90" h="-1" measuredW="82" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Reserva%20p%FAblica%20de%20pista%26bm%3BReserva%20p%FAblica%20de%20pista.bmml%26bm%3BReserva%20p%FAblica%20de%20pista.bmml%26bm%3BReserva%20p%FAblica%20de%20pista.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22931%2C123%2C1021%2C144%22%20href%3D%22Reserva%2520p%25C3%25BAblica%2520de%2520pista.bmml%22%20alt%3D%22Reserva%20p%FAblica%20de%20pista%22%20id%3D%228%22/%3E</map>
+        <text>Cerrar%20sesi%F3n</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::HRule" x="281" y="269" w="768" h="-1" measuredW="100" measuredH="10" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::ComboBox" x="538" y="215" w="341" h="-1" measuredW="231" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>--%20Seleccione%20un%20centro%20deportivo%20--</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="428" y="193" w="-1" h="-1" measuredW="50" measuredH="68" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>1%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="428" y="301" w="-1" h="-1" measuredW="65" measuredH="68" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>2%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::ComboBox" x="538" y="316" w="341" h="-1" measuredW="228" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>--%20Seleccione%20espacio%20a%20reservar%20--</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::HRule" x="281" y="378" w="768" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="431" y="409" w="-1" h="-1" measuredW="63" measuredH="68" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>60</size>
+        <text>3%BA</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="538" y="423" w="212" h="-1" measuredW="188" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>16</size>
+        <text>Selecci%F3n%20de%20fecha%20y%20hora</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="558" y="798" w="245" h="54" measuredW="123" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <href>Confirmacion%20reserva%20pista%26bm%3BConfirmacion%20reserva%20pista.bmml%26bm%3BConfirmacion%20reserva%20pista.bmml%26bm%3BConfirmacion%20reserva%20pista.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22481%2C787%2C726%2C841%22%20href%3D%22Confirmacion%2520reserva%2520pista.bmml%22%20alt%3D%22Confirmacion%20reserva%20pista%22%20id%3D%2220%22/%3E</map>
+        <size>24</size>
+        <text>Reservar</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Image" x="371" y="485" w="619" h="267" measuredW="644" measuredH="338" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <crop>0%2C130%2C1000%2C870</crop>
+        <src>http%3A//web2metaversos.files.wordpress.com/2009/05/google-calendar1.jpg%3Fw%3D644%26h%3D459</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="973" y="90" w="168" h="-1" measuredW="117" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Bienvenido%20Usuario1</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="108" y="171" w="971" h="764" measuredW="200" measuredH="122" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2CPantalla%20usuario%20registrado%20-%20historico%20reservas%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2231%2C208%2C168%2C238%22%20href%3D%22Pantalla%2520usuario%2520registrado%2520-%2520historico%2520reservas.bmml%22%20alt%3D%22Pantalla%20usuario%20registrado%20-%20historico%20reservas%22%20id%3D%2233%22/%3E</map>
+        <selectedIndex>0</selectedIndex>
+        <text>Reserva%20de%20pista%0AHist%F3rico%20de%20reservas</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Canvas" x="77" y="82" w="1024" h="1057" measuredW="100" measuredH="70" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::TitleWindow" x="363" y="418" w="452" h="208" measuredW="450" measuredH="400" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>0</bottomheight>
+        <close>true</close>
+        <dragger>false</dragger>
+        <minimize>false</minimize>
+        <text>Registro%20de%20usuario</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Button" x="547" y="581" w="85" h="31" measuredW="70" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Pantalla%20usuario%20registrado%20-%20historico%20reservas%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml%26bm%3BPantalla%20usuario%20registrado%20-%20historico%20reservas.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22470%2C570%2C555%2C601%22%20href%3D%22Pantalla%2520usuario%2520registrado%2520-%2520historico%2520reservas.bmml%22%20alt%3D%22Pantalla%20usuario%20registrado%20-%20historico%20reservas%22%20id%3D%2236%22/%3E</map>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="406" y="483" w="-1" h="-1" measuredW="161" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <text>La%20pista%20ha%20sido%20reservada.</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="406" y="510" w="-1" h="-1" measuredW="367" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <text>Se%20ha%20enviado%20un%20email%20a%20su%20direcci%F3n%20de%20correo%20con%20los%20datos</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="406" y="523" w="-1" h="-1" measuredW="81" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <text>de%20la%20reserva.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
