@@ -21,7 +21,7 @@ mysql_select_db($config['db'],$linkRead);
 
 $a=1;
 // Prepare 
-$sql="SELECT * FROM users WHERE idusers=".$a;
+$sql="SELECT * FROM users";
 echo $sql;
 $result=mysql_query($sql,$linkRead);
 while($rows=mysql_fetch_assoc($result))

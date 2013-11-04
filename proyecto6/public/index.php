@@ -14,7 +14,7 @@ else
 
 require_once ("../model/generalModel.php");
 require_once ("../model/filesModel.php");
-require_once ("../model/users/usersModel.php");
+require_once ("../model/users/file/users.php");
 
 $configFile="../configs/config.ini";
 $config=readConfig($configFile, "production");

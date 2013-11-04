@@ -56,7 +56,7 @@ switch ($action)
 		}		
 	break;
 	case 'select':
-		$users=readUsersFromFile($config);
+		$users=readUsers($config);
 		getView('select', 'users', array('users'=>$users), $config);		
 	break;
 	default:
