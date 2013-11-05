@@ -18,9 +18,9 @@ $users = $viewParams['users'];
 			<td><?=(is_array($value))?implode('|',$value):$value;?></td>
 		<?php endforeach; ?>
 		<td>
-			<a href="?controller=users&action=update&id=<?=$line;?>">update</a>
+			<a href="/users/update/id/<?=$line;?>">update</a>
 			&nbsp;&nbsp;
-		  	<a href="?controller=users&action=delete&id=<?=$line;?>">delete</a>
+		  	<a href="/users/delete/id/<?=$line;?>">delete</a>
 		</td>
 	</tr>
 <?php endforeach;?>

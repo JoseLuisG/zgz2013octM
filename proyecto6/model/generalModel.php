@@ -46,6 +46,38 @@ function getView($action = 'index', $controller = 'index', $viewParams, $config)
 
 
 
+function getRequest()
+{
+	$url=explode('/',$_SERVER['REQUEST_URI']);
+	
+	foreach ($url as $key => $value)
+	{
+		if(!isset($url[1]) OR $url[1]=='')
+			return array('controller'=>'index',
+						 'action'=>'index');
+		
+		$controller=$url[1];
+		
+		if(!isset($url[2]) || $url[2]=='')
+			$action='index';
+		else
+			$action=$url[2];
+		
+		if((sizeof($url)%2)==1)
+		if($key%2==1 AND $key>2)
+			$params[$value]=$url[$key+1];
+	}
+	
+	if(isset($params))
+		return array('controller'=>$controller,
+			'action'=>$action,
+			'params'=>$params);
+	else
+		return array('controller'=>$controller,
+				'action'=>$action);
+}
+
+
 
 
 

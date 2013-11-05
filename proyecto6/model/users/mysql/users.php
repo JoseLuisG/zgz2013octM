@@ -1,142 +1,101 @@
 <?php
 
-/**
- * Write users to file
- * @param string $filename
- * @param array $array_data
- * @return null
- */
-function writeUserToFile($filename, $array_data, $config)
-{
-	//Recorrer el array
-	foreach($array_data as $key => $value)
-	{
-		//Si es un array dividir por pipes
-		if (is_array($value))
-			$value = implode('|',$value);
-			
-		//Escibir en un array temporal
-		$out[]=$value;
-	}
-	//Añadir foto
-	$out[]=$filename;
-	//Convertir el array temporal en un string
-	$data = implode(',', $out);
-		
-	//Escribir en el fichero usuarios.txt
-	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
-	file_put_contents($filename, $data."\n", FILE_APPEND);
-	
-	return;
-}
-
-/**
- * Update a user to a file. 
- * Is delete TRUE, delete user from file
- * 
- * @param int $line
- * @param array $array_user
- * @param string $filename
- * @param boolean $delete
- * @return null
- */
-function updateUserTofile($line, $array_user, $filename, $config, $delete=null)
-{
-	$users=readUsersFromFile($config);
-	$array_user[]=$filename;	
-	
-	
-	if($delete)
-	{
-		$dir = $_SERVER['DOCUMENT_ROOT'].$config['upload_dir'];
-		unlink($dir."/".$filename);
-		unset($users[$line]);
-	}
-	else
-		$users[$line]=$array_user;
-	
-	//Recorrer el array
-	foreach($users as $key => $user)
-	{
-		//Si es un array dividir por pipes
-		$outuser=array();
-		foreach($user as $value)
-		{
-			if (is_array($value))
-				$outuser[] = implode('|',$value);
-			else
-				$outuser[] = $value;			
-		}
-		$outuser=implode(',',$outuser);
-		//Escibir en un array temporal
-		$outusers[]=$outuser;
-	}
-	$users=implode("\n", $outusers);
-	
-	//Escribir en el fichero usuarios.txt
-	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
-	file_put_contents($filename, $users);
-}
-
 
 /**
  * Read users from file
  * @return array users
  */
-function readUsersFromFile($config)
+
+
+
+function getLinkRead($config)
+{
+	$linkRead=mysqli_connect($config['database.server'],
+			$config['database.username'],
+			$config['database.password']
+	);
+	
+	mysqli_select_db($linkRead,$config['database.db'] );
+	
+	return $linkRead;
+}
+
+function getLinkWrite($config)
+{
+	$linkRead=mysqli_connect($config['database.server'],
+			$config['database.username'],
+			$config['database.password']
+	);
+
+	mysqli_select_db($linkRead,$config['database.db'] );
+
+	return $linkRead;
+}
+
+function selectAll($config)
 {
 	
-	
-	$users=array();
-	$user=array();
-	//Leer los datos del archivo de texto en un string
-	$filename= $_SERVER['DOCUMENT_ROOT'].$config['users_data'];
-	$data=file_get_contents($filename);
-	//Separar el string por lineas en un array (filas)
-	$filas = explode("\n", $data);
-	//Recorrar el array (filas)
-	foreach($filas as $key => $value)
+	$linkRead=getLinkRead($config);
+	$a=1;
+	// Prepare
+	$sql="SELECT * FROM users";
+	echo $sql;
+	$result=mysqli_query($linkRead,$sql);
+	while($row=mysqli_fetch_assoc($result))
 	{
-		//Dividir el string de fila en un array (columnas)
-		$user = explode(',', $value);
-		$userout=array();
-		foreach($user as $numcolumna => $columna)			
-		{
-			if(strpos($columna,"|")!==false)
-				$userout[]=explode('|',$columna);
-			else if($numcolumna==8 || $numcolumna==10)
-				$userout[]=array($columna);
-			else 
-				$userout[]=$columna;
-		}
-		$users[]=$userout;		
+		$users[]=$row;
 	}
+	
 	return $users;
 }
 
-/**
- * Read user from file
- * @param int $line
- * @return array user
- */
-function readUserFromFile($line, $config)
+
+function select($id,$config)
 {
-	$users=readUsersFromFile($config);
-	return $users[$line];
+	$linkRead=getLinkRead($config);
+
+	// Prepare
+	$sql="SELECT * FROM users WHERE idusers=".$id;
+
+	$result=mysqli_query($linkRead,$sql);
+	$row=mysqli_fetch_array($result);
+	
+
+	return $row;
 }
 
 
-/**
- * Get the user picture filename
- * @param int $line
- * @return string filename
- */
-function getUserFilename($line, $config)
+
+function updateUser($id, $user, $config)
 {
-	$user=readUserFromFile($line, $config);
-	$filename=$user[sizeof($user)-1];
-	return $filename;
+	$linkWrite=getLinkWrite($config);
+	$city=array('zgz'=>1);
+	
+	
+	$sql = "UPDATE users SET 
+			name ='".$user['name']."',
+			email ='".$user['email']."',
+			address ='".$user['address']."',
+			phone ='".$user['phone']."',
+			description ='".$user['description']."',
+			genders_idgenders =".$city[$user['city']]."
+			WHERE idusers=".$id;
+	echo $sql;
+	
+	echo "<pre>";
+	print_r($user);
+	echo "</pre>";
+	die;
+	mysqli_query($linkWrite, $sql);
+		
 }
+
+
+
+
+
+
+
 
 
 
