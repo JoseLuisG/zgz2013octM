@@ -1,5 +1,12 @@
 <?php 
 
+
+session_start();
+session_destroy();
+echo session_id();
+
+die;
+
 // Define application environment
 defined('APPLICATION_ENV') ||
 	define('APPLICATION_ENV',
@@ -16,16 +23,28 @@ $config=readConfig($configFile, "production");
 
 $request=getRequest();
 
-
+$layoutparams=array(
+		"request"=>$request,
+		"config"=>$config);
 
 switch ($request['controller'])
 {
 	case 'users':
-		include_once ("../controllers/users.php");
+		renderLayout('frontend', $request['controller'],$layoutparams);
 	break;
-	case 'frontend':
-		echo "esto es frontend";
+	case 'index':
+		renderLayout('frontend', $request['controller'],$layoutparams);				
 	break;
+	
 	default:
+		
 	break;
 }
+
+
+
+
+
+
+
+

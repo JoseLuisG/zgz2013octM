@@ -1,7 +1,7 @@
 <?php 
 $users = $viewParams['users'];
 ?>
-<a href="?controller=users&action=insert">Insert Usuario</a>
+<a href="/users/insert">Insert Usuario</a>
 <table border=1>
 <tr>
 <th>Id</th> <th>Nombre</th>

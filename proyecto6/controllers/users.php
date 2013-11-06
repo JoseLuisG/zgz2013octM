@@ -1,5 +1,6 @@
 <?php 
-
+$request=$layoutparams['request'];
+$config=$layoutparams['config'];
 
 require_once '../model/users/usersModel.php';
 switch ($request['action'])
@@ -15,7 +16,11 @@ switch ($request['action'])
 		else
 		{
 			$user=array();
-			getView('insertForm', 'users', array('user'=>$user), $config);	
+			//$data=getGenders($config);
+			$data=array('1'=>'Mujer',
+					'2'=>'Hombre',
+					'3'=>'Otros');
+			getView('insertForm', 'users', array('user'=>$user,'data'=>$data), $config);	
 		}
 	break;
 	case 'update':

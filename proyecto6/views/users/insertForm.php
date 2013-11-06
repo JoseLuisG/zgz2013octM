@@ -29,6 +29,9 @@ $user = $viewParams['user'];
 		Foto: <input type="file" name="photo"/>
 	</li>
 	<li>
+		<?php 
+			echo radioForm('genders_idgenders', $data, $user);
+		?>
 		Sexo: 
 		M: <input type="radio" name="gender" value="m" <?=(isset($user[7])&&$user[7]=="m")?'checked':'';?> />
 		H: <input type="radio" name="gender" value="h" <?=(isset($user[7])&&$user[7]=="h")?'checked':'';?> />
